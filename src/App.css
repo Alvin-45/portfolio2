@@ -1,0 +1,404 @@
+.fullbody{
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231027/pngtree-hexagonal-abstract-background-with-a-black-textured-surface-image_13704307.png);
+  height: 100vh;
+  background-size: cover;
+}
+.bdy2{
+  padding-right: 1.5rem;
+}
+.bimg{
+  width: 50%;
+}
+.name{
+  background: linear-gradient(to right, #f32170, 
+  #ff6b08, #cf23cf, #eedd44); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+
+}
+.name2{
+  background: linear-gradient(to right, #6ef321, 
+  #1abd30, #23cf8a, #eedd44); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+
+}
+
+marquee{
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  
+}
+.m1:hover{
+   animation-play-state: paused;
+}
+.about{
+  /* background-image: url(https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg); */
+  background-color: black;
+  background-size: cover;
+}
+.arrow1{
+  color: red;
+}
+.arrow{
+  color: red;
+}
+.abhead{
+  border: red 5px solid;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  /* background-color: #6ef321; */
+
+}
+.abh:hover .abhead{
+  animation-name: colorchng;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.abh:hover #i2{
+  color: #eedd44;
+  animation-name: shuffle;
+  animation-duration: 0.5s;
+  /* animation-delay: 0.5s; */
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.abh:hover #i1{
+  color: #eedd44;
+  animation-name: shuffle2;
+  animation-duration: 0.5s;
+  /* animation-delay: 0.5s; */
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.abh:hover #i3{
+  color: #eedd44;
+  animation-name: shuffle3;
+  animation-duration: 0.5s;
+  /* animation-delay: 0.5s; */
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.abh:hover #i4{
+  color: #eedd44;
+  animation-name: shuffle4;
+  animation-duration: 0.5s;
+  /* animation-delay: 0.5s; */
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.abh:hover #i5{
+  color: #eedd44;
+  animation-name: shuffle5;
+  animation-duration: 0.5s;
+  /* animation-delay: 0.5s; */
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.abh:hover #i6{
+  color: #eedd44;
+  animation-name: shuffle6;
+  animation-duration: 0.5s;
+  /* animation-delay: 0.5s; */
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes colorchng {
+  0%{
+    border-color: red;
+  }
+  50%{
+    border-color: #eedd44;
+
+  }
+  100%{
+    border-color: #eedd44;
+    background-color: #c0b550;
+  }
+}
+@keyframes shuffle {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(-160px);
+  }
+}
+@keyframes shuffle2 {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(160px);
+  }
+}
+@keyframes shuffle3 {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(120px);
+  }
+}
+@keyframes shuffle4 {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(-120px);
+  }
+}
+@keyframes shuffle5 {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(200px);
+  }
+}
+@keyframes shuffle6 {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(-200px);
+  }
+}
+
+.m2{
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  animation: marquee 10s linear infinite;
+}
+.m1:hover{
+   animation-play-state: paused;
+}
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: hidden;
+  background-color: black;
+}
+.track {
+  background-color: black;
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.services{
+  background-image: url(https://t4.ftcdn.net/jpg/05/16/03/47/360_F_516034760_kWdE15pKthwDLjXBZwYUjBZpydCihUjO.jpg);
+  background-size: cover;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+  border: grey 1px solid;
+}
+.box1:hover{
+  border: 1px solid red;
+}
+.box2:hover{
+  border: 1px solid red;
+}
+.box3:hover{
+  border: 1px solid red;
+}
+.box4:hover{
+  border: 1px solid red;
+}
+.box5:hover{
+  border: 1px solid red;
+}
+.box6:hover{
+  border: 1px solid red;
+}
+.skills{
+ 
+  background-color: black;
+}
+.portfolio{
+  background-color: black;
+}
+.b1{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+
+  margin-top: -295px;
+}
+.outerpart{
+  overflow-y: hidden;
+}
+.outerpart:hover .b1{
+  animation-name: back;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes back {
+  0%{
+    margin-top: -295%;
+  }
+  100%{
+    margin-top: 0px;
+  }
+
+}
+.projectpart::-webkit-scrollbar{
+  display: none;
+}
+.btn1{
+  background-image: linear-gradient(to right,blue, violet,rgb(22, 187, 241));
+  border-radius: 30px;
+  width: 250px;
+  height: 50px;
+
+}
+.nav2{
+  position: sticky;
+  top: 0;
+  background-color: rgba(3, 3, 3, 0.863);
+  padding: 20px;
+  font-size: 15px;
+  z-index: 9999;
+}
+text{
+  color: white;
+}
+.bcnt1{
+  width: 50%;
+}
+.bintro{
+  width: 75%;
+}
+.box1{
+  width: 25%;
+}
+.box2{
+  width: 25%;
+}
+.box3{
+  width: 25%;
+}
+.box4{
+  width: 25%;
+}
+.box5{
+  width: 25%;
+}
+.box6{
+  width: 25%;
+}
+.skillh{
+  margin-left: 700px;
+}
+.skillcircle{
+  margin-left: 500px;
+  width: 350px;
+}
+.boxs1{
+  width: 20%;
+}
+.outerpart{
+  width: 500px;
+  position: relative;
+}
+.projectpart{
+  overflow-x: auto;
+}
+.footimg{
+  width: 10%;
+}
+.footimg2{
+  width: 15%;
+}
+@media only screen and (max-width: 600px) {
+  .fullbody{
+    height: fit-content;
+  }
+  .bimg{
+    width: 100%;
+  }
+  .bcnt1{
+    width: 100%;
+  }
+  .bintro{
+    width: 100%;
+  }
+  .image{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .cont2{
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .box1{
+    width: 100%;
+  }
+  .box2{
+    width: 100%;
+  }
+  .box3{
+    width: 100%;
+  }
+  .box4{
+    width: 100%;
+  }
+  .box5{
+    width: 100%;
+  }
+  .box6{
+    width: 100%;
+  }
+  .skillh{
+    margin-left: 70px;
+    margin-top: -150px;
+  }
+  .skillcircle{
+    margin-left: 0px;
+  }
+  .boxs1{
+    width: 100%;
+  }
+  .projectpart{
+    flex-wrap: wrap;
+  }
+  .outerpart{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+  }
+  .footimg{
+    width: 35px;
+  }
+  .footimg2{
+    width: 45px;
+    margin-left: -5px;
+  }
+  .offhead{
+    background-color: black;
+  }
+  .offbdy{
+    background-color: black;
+  }
+  .navmenu{
+    padding-top: 70px;
+  }
+}
